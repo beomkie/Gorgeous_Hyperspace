@@ -48,6 +48,7 @@
   }
   .info-container {
   font-size: 10px;
+  margin-right: 0px;
   }
 }
 </style>

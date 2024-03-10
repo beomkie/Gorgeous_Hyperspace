@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>4Rooms Page</h1>
+    <img src="@/assets/4rooms.png" alt="4Rooms Logo" class="logo-style">
   </div>
 </template>
 
@@ -10,6 +10,10 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.logo-style {
+  width: 150px;
+  margin-top: 100px;
+}
 
 </style>

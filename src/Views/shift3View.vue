@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>SHiFT3 Page</h1>
+    <img src="@/assets/SHiFT3_logo_white.png" alt="shift3 Logo" class="logo-style">
   </div>
 </template>
 
@@ -10,6 +10,10 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.logo-style {
+  width: 150px;
+  margin-top: 100px;
+}
 
 </style>
