@@ -1,5 +1,7 @@
 # hyperspace
 
+- bootstrap vue 설치하기
+
 ## Project setup
 ```
 npm install

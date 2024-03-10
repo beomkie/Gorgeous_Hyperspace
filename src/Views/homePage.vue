@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <p class="start-style">Welcome to Gorgeous</p>
+      <p class="start-style">Make small improvements <br>lead to progress in the world.</p>
     </div>
     <div>
       <img src="@/assets/earth.jpg" alt="Earth Photo" class="earth-style">
@@ -23,7 +23,7 @@ export default {
     },
     goto4rooms() {
       this.$router.push({name: '4Rooms'});
-    }
+    },
   }
 
 }
@@ -31,23 +31,40 @@ export default {
 
 <style scoped>
 .start-style {
-  font-size: 30px;
+  font-size: 60px;
   font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: white;
+  margin-top: 120px;
 }
 .earth-style {
-  width: 350px;
-  margin-top: 80px;
+  width: 200px;
+  margin-top: 30px;
 }
 .title-style {
   font-size: 30px;
   font-weight: 600;
   color: white;
-  margin-top: 90px;
+  margin-top: 200px;
 }
 .brand-style {
   width: 170px;
   margin: 50px;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.brand-style :hover {
+  transform: scale(1.1);
+  filter: brightness(0.8);
+}
+@media (max-width: 768px) {
+  .start-style {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  margin-top: 120px;
+  margin: 20px;
+}  
 }
 </style>

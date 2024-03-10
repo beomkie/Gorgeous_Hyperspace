@@ -1,19 +1,15 @@
 import Vue from 'vue'
 import router from './router'
 import App from './App.vue'
+import BootstrapVue from 'bootstrap-vue'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 // Vue Router 사용
 Vue.use(router)
 
-// // 라우터 설정
-// const router = new VueRouter({
-//   routes: [
-//     {
-//       path: '/',
-//       component: App
-//     }
-//   ]
-// })
+Vue.use(BootstrapVue)
+
 
 // Vue 인스턴스 생성
 new Vue({

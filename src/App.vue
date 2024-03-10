@@ -6,16 +6,21 @@
     <div class="contents-container">
       <router-view></router-view>
     </div>
+    <div>
+      <footerComp />
+    </div>
   </div>
 </template>
 
 <script>
 import headerComp from '@/components/headerComp.vue';
+import footerComp from '@/components/footerComp.vue';
 
 export default {
   name: 'App',
   components: {
     headerComp,
+    footerComp,
   }
 }
 </script>
@@ -30,7 +35,7 @@ export default {
   margin-top: 60px;
 }
 body {
-  background-color: #000000;
+  background-color: #000000 !important;
 }
 .contents-container {
   overflow-y: auto;

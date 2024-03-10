@@ -4,7 +4,9 @@ import Home from '@/Views/homePage.vue';
 import hyperSpace from '@/Views/hyperSpace.vue';
 import Shift3 from '@/Views/shift3View.vue';
 import forRooms from '@/Views/4roomsView.vue';
-
+import about from '@/Views/aboutView.vue';
+import brand from '@/Views/brandView.vue';
+import team from '@/Views/teamView.vue';
 
 Vue.use(VueRouter)
 
@@ -28,6 +30,21 @@ const routes = [
     path: '/4rooms',
     name: '4Rooms',
     component: forRooms
+  },
+  {
+    path: '/about',
+    name: 'about',
+    component: about 
+  },
+  {
+    path: '/brand',
+    name: 'brand',
+    component: brand
+  },
+  {
+    path: '/team',
+    name: 'team',
+    component: team 
   }
 
 ]
