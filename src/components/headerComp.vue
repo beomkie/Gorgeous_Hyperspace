@@ -40,7 +40,7 @@ export default {
   margin-top: -10px;
 }
 .nav-style {
-  margin-left: 1300px;
+  margin-left: 800px;
   margin-top: -30px;
 }
 

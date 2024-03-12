@@ -1,6 +1,7 @@
 # hyperspace
 
-- bootstrap vue 설치하기
+- MacBook Pro installo complete
+- 헤더 메뉴바 위치 수정(타 스크린 확인필요)
 
 ## Project setup
 ```
